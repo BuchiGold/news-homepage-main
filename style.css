@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: none;
+}
+
+.logoContainer {
+    display: inline-block;
+}
+
+.menuContainer {
+    /* border: 2px solid black; */
+    display: inline-block;
+    width: 2rem;
+   /* margin-inline-end: 1rem;
+    margin-inline-start: auto; */
+}
+
+.menuContainer span.hamburger {
+    display: block;
+    background-color: black;
+    width: 100%;
+    height: 4px;
+}
+
